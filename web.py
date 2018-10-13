@@ -45,7 +45,7 @@ class BC:
         # write html for the search results
         astr = ''
         for url, snip in adict.items():
-            astr += '<br><div class="url"><a href={} onclick="alert("not ye??")" status=301 method="GET")>{}</a></div>'.format(url, url, url)
+            astr += '<br><div class="url"><a href=https://{} onclick="alert("not ye??")" status=301 method="GET")>{}</a></div>'.format(url, url, url)
             for s in snip:
                 astr += '<div class ="snip">{}</div>'.format(s)
         astr += '</div></div></body></html>'
