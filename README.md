@@ -1,6 +1,12 @@
 # SearchEngine
 
+To start, run web.py, 
+then open
+
 Python library needs: cherrypy, bs4, nltk, pymongo;
+
+
+
 
 cherrypy - web framework;
 pymongo - database;
